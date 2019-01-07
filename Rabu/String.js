@@ -41,11 +41,6 @@ console.log('Fourth Word: ' + fourthWord3);
 console.log('Fifth Word: ' + fifthWord3);
 
 /*4. Breaking Sentence (yet Again) and Count Each Length*/
-// Problem
-// Mirip seperti soal nomor 3, tapi tampilkan juga panjang kata masing-masingnya!
-
-// Skeleton Code
-// Buatlah variable-variable baru untuk menyimpan panjang string, dan ubah console dibawah untuk menampilkan nya.
 
 var word4 = 'wow JavaScript is so cool';
 var exampleFirstWord4 = word4.substring(0, 3);

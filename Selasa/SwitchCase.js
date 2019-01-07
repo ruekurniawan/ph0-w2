@@ -2,11 +2,11 @@ var tanggal = 1
 var bulan = 12
 var tahun = 1900
 
-if(tanggal < 1 || tanggal > 31)
+if(tanggal < 1 || tanggal > 31 || typeof(tanggal) !== "number")
 {
 	console.log("Salah masukkan tanggal");
 }
-else if(tahun < 1900 || tahun > 2200)
+else if(tahun < 1900 || tahun > 2200 || typeof(tahun) !== "number")
 {
 	console.log("Salah masukkan tahun")
 }

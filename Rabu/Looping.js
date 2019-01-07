@@ -7,7 +7,7 @@ while(index < 20)
 	console.log(index + " - I love coding")
 }
 
-console.log("LOOPING PERTAMA");
+console.log("LOOPING KEDUA");
 while(index > 0)
 {
 	console.log(index + " - I will become fullstack developer")
@@ -44,7 +44,7 @@ for(let j = 1; j <= 100; j+=2)
 {
 	if(j % 3 === 0)
 	{
-		console.log("3 KELIPATAN "+j);
+		console.log(j+ " KELIPATAN 3");
 	}
 }
 
@@ -52,7 +52,7 @@ for(let k = 1; k <= 100; k+=5)
 {
 	if(k % 6 === 0)
 	{
-		console.log("6 KELIPATAN "+k);
+		console.log(k+" KELIPATAN 6");
 	}
 }
 
@@ -60,6 +60,6 @@ for(let l = 1; l <= 100; l+=9)
 {
 	if(l % 10 === 0)
 	{
-		console.log("10 KELIPATAN "+l);
+		console.log(l+" KELIPATAN 10");
 	}
 }
